@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name</title>
+  <link rel="stylesheet" href="./css/shared.css">
+  <link rel="stylesheet" href="./css/minimal.css">
+</head>
+<body class="theme-minimal">
+
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="#">Your Name</a>
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav" aria-label="Open menu"><span></span><span></span></button>
+      <nav id="nav" class="site-nav" aria-label="Main">
+        <a href="#statement">Statement</a>
+        <a href="#work">Work</a>
+        <a href="#media">Media</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="wrap narrow">
+
+    <div class="privacy-notice">
+      <strong>🔒 This website is public</strong>
+      Do not publish passwords, unpublished research, personal phone numbers, or confidential material. If you would not send it to a stranger by email, do not place it here.
+    </div>
+
+    <div class="trainer-tip">
+      <strong>👋 Minimal layout</strong> Text-first. Optional <strong>inline thumbnails, collapsible video, and PDF link</strong>. Use when the writing should carry the page.
+    </div>
+    <div class="fill-checklist" id="fill-checklist">
+      <strong>📋 To fully fill out Minimal</strong>
+      <span class="fill-checklist-summary">Gather: 1 photo · 1 PDF · 1 video embed</span>
+      <p class="fill-checklist-intro">Replace every placeholder below. No extra sections required. Delete this box when finished.</p>
+      <p class="fill-checklist-ai"><strong>Using an AI coding assistant?</strong> Copy this whole blue box into Cursor, Copilot, or another coding assistant. Ask it to go through each item with you (text, photos, PDFs, video), update <code>index.html</code>, and tell you what to put in <code>assets/</code>.</p>
+
+
+      <p><strong>Text to write</strong> (search <code>EDIT HERE</code> or replace placeholder copy)</p>
+      <ul class="fill-checklist-text">
+      <li>Name and one-line tagline</li>
+      <li>Statement: 1 short paragraph</li>
+      <li>Work: 2 entries (role, org, description)</li>
+      <li>Contact email, LinkedIn, GitHub</li>
+      </ul>
+
+      <p><strong>Photos to upload</strong> (to <code>assets/</code> on GitHub; JPG recommended, about 500 KB each)</p>
+      <table class="fill-checklist-table">
+        <thead><tr><th>Qty</th><th>Filename</th><th>Min size</th><th>Find in HTML</th></tr></thead>
+        <tbody>
+      <tr><td>1× Optional thumbnail for first project only</td><td><code>assets/project-thumb.jpg</code></td><td>300×300 px min<br>1:1 square</td><td>Search <code>ADD PROJECT IMAGE HERE</code></td></tr>
+        </tbody>
+      </table>
+
+      <p><strong>PDFs to upload</strong></p>
+      <table class="fill-checklist-table">
+        <thead><tr><th>Document</th><th>Filename</th><th>Notes</th></tr></thead>
+        <tbody>
+      <tr><td>CV</td><td><code>assets/cv.pdf</code></td><td>PDF, under 2 MB</td></tr>
+        </tbody>
+      </table>
+    <p><strong>Video</strong></p>
+    <ul><li><strong>1× video</strong>: YouTube or Vimeo embed URL (no file upload) (search <code>ADD VIDEO HERE</code>)</li>
+    </ul>
+    </div>
+
+
+    <header class="page-intro">
+      <p class="intro-label">Portfolio / 2026</p>
+      <h1>Your Name</h1>
+      <p class="intro-lead">A concise professional statement follows.</p>
+    </header>
+
+    <section id="statement">
+      <h2>Statement</h2>
+      <p>State your role, field, and aims in two or three short paragraphs. Prefer exact claims over general praise.</p>
+      <p>Name the questions you pursue and the work you have already completed toward them.</p>
+    </section>
+
+    <section id="work">
+      <h2>Selected work</h2>
+
+      <article class="work-item">
+        <div class="work-text">
+          <h3>Project Title <span class="work-year">2025</span></h3>
+          <p>Describe the task, method, and result. One line of methods is enough when relevant.</p>
+          <a href="#">Read more →</a>
+        </div>
+        <!-- ADD PROJECT IMAGE HERE: optional small thumb -->
+        <div class="work-thumb media-placeholder media-placeholder--square" aria-label="Optional project thumbnail"><span>🖼</span></div>
+      </article>
+
+      <article class="work-item">
+        <div class="work-text">
+          <h3>Second Project <span class="work-year">2024</span></h3>
+          <p>Short description of scope and outcome.</p>
+          <a href="#">PDF →</a>
+        </div>
+        <div class="work-thumb media-placeholder media-placeholder--square" aria-hidden="true"><span>🖼</span></div>
+      </article>
+
+      <article class="work-item work-item--plain">
+        <div class="work-text">
+          <h3>Teaching / Service <span class="work-year">2024</span></h3>
+          <p>Image optional. Remove the thumbnail column if you prefer text only.</p>
+        </div>
+      </article>
+    </section>
+
+    <section id="media">
+      <h2>Talks &amp; media</h2>
+      <p class="section-note">Optional. Add a video here, or remove the section.</p>
+
+      <details class="media-details">
+        <summary>Watch: presentation or demo (ADD VIDEO HERE)</summary>
+        <div class="media-details-body">
+          <!-- ADD VIDEO HERE
+          <div class="media-embed">
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID" title="Describe the video" loading="lazy" allowfullscreen></iframe>
+          </div>
+          -->
+          <div class="media-placeholder media-placeholder--video">
+            <span aria-hidden="true">▶</span>
+            Paste a YouTube/Vimeo embed above (see HTML comment)
+          </div>
+        </div>
+      </details>
+
+      <!-- ADD PDF HERE -->
+      <p class="file-row"><a class="file-download" href="./assets/cv.pdf">Download CV (PDF)</a></p>
+
+      <!-- ADD AUDIO HERE: optional podcast or interview clip
+      <div class="media-audio">
+        <p class="section-note">Audio clip title</p>
+        <audio controls preload="none" src="./assets/interview.mp3">Your browser does not support audio.</audio>
+      </div>
+      -->
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <address class="contact-block">
+        <a href="mailto:you@university.edu">you@university.edu</a><br>
+        <a href="https://linkedin.com/in/yourprofile" rel="noopener noreferrer">LinkedIn</a> ·
+        <a href="https://github.com/yourusername" rel="noopener noreferrer">GitHub</a>
+      </address>
+    </section>
+
+  </main>
+
+  <footer class="site-footer wrap narrow"><p>&copy; <span id="year"></span> Your Name · Minimal</p>
+    <p class="template-credit"><a href="https://loganmjones.github.io/PortfolioTraining/" rel="noopener noreferrer">Portfolio Training</a> · <a href="https://github.com/LoganMJones/PortfolioTraining/raw/main/solo/zips/minimal.zip" download rel="noopener noreferrer">Download ZIP</a></p>
+  <p class="architect-credit">Built by <a href="https://www.loganjones.org/" rel="noopener noreferrer">Logan Jones</a> with help from <a href="https://cursor.com/" target="_blank" rel="noopener noreferrer">Cursor</a>.</p>
+  </footer>
+  <script src="./js/main.js"></script>
+</body>
+</html>
